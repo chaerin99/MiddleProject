@@ -13,11 +13,11 @@ const Footer = () => {
             © {new Date().getFullYear()}{" "}
             <a
               className="font-weight-bold ml-1"
-              href="https://www.creative-tim.com?ref=adr-admin-footer"
+              href="https://github.com/Douzone3Team/MiddleProject"
               rel="noopener noreferrer"
               target="_blank"
             >
-              Creative Tim
+              Team_Project
             </a>
           </div>
         </Col>
@@ -26,41 +26,41 @@ const Footer = () => {
           <Nav className="nav-footer justify-content-center justify-content-xl-end">
             <NavItem>
               <NavLink
-                href="https://www.creative-tim.com?ref=adr-admin-footer"
+                href=""
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                Creative Tim
+                성봉제
               </NavLink>
             </NavItem>
 
             <NavItem>
               <NavLink
-                href="https://www.creative-tim.com/presentation?ref=adr-admin-footer"
+                href=""
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                About Us
+                하성록
               </NavLink>
             </NavItem>
 
             <NavItem>
               <NavLink
-                href="http://blog.creative-tim.com?ref=adr-admin-footer"
+                href=""
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                Blog
+                엄채린
               </NavLink>
             </NavItem>
 
             <NavItem>
               <NavLink
-                href="https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md?ref=adr-admin-footer"
+                href=""
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                MIT License
+                이지은
               </NavLink>
             </NavItem>
           </Nav>
