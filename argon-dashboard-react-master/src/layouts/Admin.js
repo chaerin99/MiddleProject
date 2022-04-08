@@ -4,6 +4,7 @@ import { useLocation, Route, Switch, Redirect } from "react-router-dom";
 // reactstrap components
 import { Container } from "reactstrap";
 // core components
+import AuthNavbar from "components/Navbars/AuthNavbar.js";
 import AdminNavbar from "components/Navbars/AdminNavbar.js";
 import AdminFooter from "components/Footers/AdminFooter.js";
 import Sidebar from "components/Sidebar/Sidebar.js";
@@ -60,10 +61,8 @@ const Admin = (props) => {
         }}
       />
       <div className="main-content" ref={mainContent}>
-        <AdminNavbar
-          {...props}
-          brandText={getBrandText(props.location.pathname)}
-        />
+        <AuthNavbar />
+
         <Switch>
           {getRoutes(routes)}
           <Redirect from="*" to="/admin/index" />
