@@ -7,19 +7,19 @@ const path = require('path');
 
 let socketList = {};
 //개발
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '../client/public')));
 app.get('/*', function (req, res) {
     res.sendFile(path.join(__dirname, '../client/public/index.html'));
 });
 
-//배포
-// if (process.env.NODE_ENV === 'production') {
+// //배포
+// // if (process.env.NODE_ENV === 'production') {
 // app.use(express.static(path.join(__dirname, '../client/build')));
 
 // app.get('/*', function (req, res) {
 //     res.sendFile(path.join(__dirname, '../client/build/index.html'));
 // });
-// }
+// // }
 
 io.on('connection', (socket) => {
 
