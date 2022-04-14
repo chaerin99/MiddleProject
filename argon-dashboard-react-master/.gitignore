@@ -7,5 +7,4 @@ node_modules
 .env
 /client/node_modules
 /client/scripts
-
 /client/config
