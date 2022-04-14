@@ -1,7 +1,10 @@
 /build
 /node_modules
 package-lock.json
-/build
+/client/build
 .eslintcache
 node_modules
 .env
+/client/node_modules
+/client/scripts
+/client/config
